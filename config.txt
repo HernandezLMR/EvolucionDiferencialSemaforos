@@ -1,0 +1,9 @@
+FMUTACION = 0.7
+CRECOMBINACION = 0.7
+NGENERACIONES = 4000
+TPOBLACION = 400
+FUNCION = x**2 + ((y - 1)**2)
+
+RESTRICT = ['y - (x**2) == 0']
+OBJETIVO = 'MIN'
+INTERVALO = [(-1, 1), (-1, 1)]
